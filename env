@@ -1,0 +1,34 @@
+# .env 文件示例
+
+# --- API Authentication ---
+# 设置为 True 启用 API 密钥鉴权，False 禁用 (默认)
+# API_AUTH_ENABLED=False
+# API_AUTH_ENABLED=True
+
+# 如果 API_AUTH_ENABLED=True，则必须设置此密钥
+# API_KEY="your_very_secret_and_strong_api_key_12345"
+
+
+# --- Flask Server Settings ---
+# API 服务器监听的主机地址。0.0.0.0 表示监听所有可用网络接口 (默认)
+# FLASK_HOST=0.0.0.0
+# FLASK_HOST=127.0.0.1 # 仅本地访问
+
+# API 服务器监听的端口 (默认 5000)
+# FLASK_PORT=5000
+
+# Flask 调试模式 (True/False)。生产环境应为 False (默认)
+# FLASK_DEBUG=False
+# FLASK_DEBUG=True # 仅用于开发，会显示更详细的错误
+
+
+# --- Twinkle Tray Path ---
+# 可选: 如果 Twinkle Tray 不在标准位置或PATH中，请指定其完整路径
+# 例如 (Windows):
+# TWINKLE_TRAY_PATH="C:\\Program Files\\Twinkle Tray\\Twinkle Tray.exe"
+# TWINKLE_TRAY_PATH="C:\\Users\\YourUser\\AppData\\Local\\Programs\\twinkle-tray\\Twinkle Tray.exe"
+# 注意：路径中的反斜杠可能需要转义 (\\) 或使用正斜杠 (/)
+
+
+# --- Logging (目前未通过 .env 配置，但在代码中设置) ---
+# LOG_LEVEL=INFO # (未来可以考虑添加此配置)
