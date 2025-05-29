@@ -1,6 +1,6 @@
 # WinIoT_Backend
 
-Restful API backend to remote control Windows devices peripherals
+Restful API backend for remote control Windows peripherals devices
 
 ## Current features
 
@@ -8,7 +8,7 @@ Restful API backend to remote control Windows devices peripherals
 
 2.Monitor brightness control via Restful API
 
-3.Volume mute/unmute control via via Restful API
+3.Volume mute/unmute control via Restful API
 
 4.More features in devloping
 
