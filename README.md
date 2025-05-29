@@ -5,8 +5,11 @@ Restful API backend to remote control Windows devices peripherals
 ## Current features
 
 1.Monitor power control via Restful API
+
 2.Monitor brightness control via Restful API
+
 3.Volume mute/unmute control via via Restful API
+
 4.More features in devloping
 
 ## API Documentation
