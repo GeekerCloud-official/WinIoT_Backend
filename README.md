@@ -10,7 +10,7 @@ Restful API backend for remote control Windows peripherals devices
 
 3.Volume mute/unmute control via Restful API
 
-4.More features in devloping
+4.More features are under devloping
 
 ## API Documentation
 
