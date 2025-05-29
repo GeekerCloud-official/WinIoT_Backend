@@ -1,0 +1,5 @@
+Flask
+python-dotenv
+pycaw
+pywin32
+waitress 
