@@ -1,13 +1,13 @@
 # WinIoT_Backend
 Restful API backend to remote control Windows devices peripherals
 
-##Current features
+## Current features
 1.Monitor power control via Restful API
 2.Monitor brightness control via Restful API
 3.Volume mute/unmute control via via Restful API
 4.More features in devloping
 
-##API Documentation
+## API Documentation
 Base URL: http://<FLASK_HOST>:<FLASK_PORT>
 (The values for <FLASK_HOST> and <FLASK_PORT> are determined by the .env file or default values in the code, defaulting to http://0.0.0.0:5000)
 Authentication:
@@ -59,7 +59,7 @@ Path: /api/audio/status
 Method: GET
 Description: Gets the current mute status of the system's master audio volume.
 
-##Additional Instructions
+## Additional Instructions
 1.For monitors control [TwinkleTray](https://github.com/xanderfrangos/twinkle-tray) must be installed first
 2.You can integrate these api to [HomeAssistant](https://github.com/home-assistant) in order to make your PC Peripherals intelligently
 
